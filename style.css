@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../img/bmi.jpg);
+    background-size: 1300px 800px;
+}
+#nav{
+    background-color: hsl(0, 4%, 87%);
+    border-bottom: 4px solid white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px;
+}
+.bmi{
+    background-color: #e7dfdf;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 480px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+input,label{
+    margin: 10px;
+}
+label{
+    font-size: large;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    padding-right: 80px;
+}
+h2{
+    text-align: center;
+}
+#cal{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 7px;
+}
+#clr{
+    padding-left:20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    margin-left: 20px;
+
+}
+button{
+    background-color: grey;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: hsl(0, 2%, 79%);
+}
+#p{
+    color: red;
+}
+#a{
+    color: green;
+}
